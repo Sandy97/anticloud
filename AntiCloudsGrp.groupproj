@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{54B1EE4A-B85D-44B2-B61E-6C8DB3E0C2CB}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="aniclouds.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="AntiCloud.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="aniclouds">
+        <MSBuild Projects="aniclouds.dproj"/>
+    </Target>
+    <Target Name="aniclouds:Clean">
+        <MSBuild Projects="aniclouds.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="aniclouds:Make">
+        <MSBuild Projects="aniclouds.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AntiCloud">
+        <MSBuild Projects="AntiCloud.dproj"/>
+    </Target>
+    <Target Name="AntiCloud:Clean">
+        <MSBuild Projects="AntiCloud.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AntiCloud:Make">
+        <MSBuild Projects="AntiCloud.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="aniclouds;AntiCloud"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="aniclouds:Clean;AntiCloud:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="aniclouds:Make;AntiCloud:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

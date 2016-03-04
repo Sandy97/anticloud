@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.215,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.768,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.516,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.755,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas=C:\ABC\aniclouds\uAClouds.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.116,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.755,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.fmx=C:\ABC\aniclouds\uAClouds.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.466,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Project4.dproj=C:\ABC\aniclouds\aniclouds.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.289,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.649,=emsserverapi.dcp</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<Pabc iOSSimulator="iPhone5"/>
+		<NoProfile Android="CB5A1XH07R"/>
+	</ActiveMobileDevice>
+</BorlandProject>

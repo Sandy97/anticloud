@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.289,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.768,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.516,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.649,=emsserverapi.dcp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.215,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2016.03.04 12:47:11.442,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2016.03.04 12:51:34.321,C:\ABC\aniclouds\uClouds2.fmx=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit5.fmx</Transaction>
+    <Transaction>2016.03.04 12:51:34.321,C:\ABC\aniclouds\uClouds2.pas=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2016.03.04 12:51:55.995,C:\ABC\aniclouds\aniclouds2.dproj=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Project4.dproj</Transaction>
+    <Transaction>2016.03.04 16:04:11.337,C:\ABC\aniclouds\AntiCloud.dproj=C:\ABC\aniclouds\aniclouds2.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<Pabc iOSSimulator="iPhone5"/>  <NoProfile Android="CB5A1XH07R"/>
+  </ActiveMobileDevice>
+</BorlandProject>
